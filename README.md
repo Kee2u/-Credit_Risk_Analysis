@@ -28,7 +28,7 @@ The logistic regression with clustercentroids oversampling model had the followi
 <strong>SMOTEEN sampling</strong></br>
 The logistic regression with SMOTEEN model had the following metrics.
  - Balanced Accuracy: 0.640
- - Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.70 </br>r>
+ - Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.70 </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/SMOTEEN.PNG?raw=true">
    
  ### Ensemble Classifiers
