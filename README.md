@@ -10,25 +10,25 @@ I started with a logistic regression classification model to predict credit risk
 <strong>Random Oversampling</strong></br>
 The logistic regression with random oversampling model had the following metrics.
  - Balanced Accuracy: 0.677
- - Precision and Recall: </br>
+ - Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.76 </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/RandomOversampling.PNG?raw=true">
  
 <strong>SMOTE Oversampling</strong></br>
 The logistic regression with SMOTE model had the following metrics.
  - Balanced Accuracy: 0.662
- - Precision and Recall: </br>
+ - Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.63 </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/SMOTE.PNG?raw=true">
  
 <strong>Clustercentroids Undersampling</strong></br>
 The logistic regression with clustercentroids oversampling model had the following metrics.
  - Balanced Accuracy: 0.662
- - Precision and Recall: </br>
+  - Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.69 </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/Cluster.PNG?raw=true">
  
 <strong>SMOTEEN sampling</strong></br>
 The logistic regression with SMOTEEN model had the following metrics.
  - Balanced Accuracy: 0.640
- - Precision and Recall: </br>
+  - Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.70 </br>r>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/SMOTEEN.PNG?raw=true">
    
  ### Ensemble Classifiers
@@ -37,13 +37,13 @@ The logistic regression with SMOTEEN model had the following metrics.
  <strong>Random Forest Classifier</strong></br>
  The Random Forest Classifier had the following metrics:
  - Balanced Accuracy: 0.788
- - Precision and Recall: </br>
+ - Precision and Recall: This model predicted high risk datapoints with a precision of 0.03 and a recall of 0.70 </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/rANDOMfOR.PNG?raw=true">
    
  <strong>Easy Ensemble Classifier</strong></br>
  The Easy Ensemble Classfier had the following metrics:
  - Balanced Accuracy: 0.931
- - Precision and Recall: </br>
+ - Precision and Recall: This model predicted high risk datapoints with a precision of 0.09 and a recall of 0.92 </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/ADA.PNG?raw=true">
 
 
