@@ -8,7 +8,7 @@ The purpose of this analysis is to predict credit risk using Machine Learning al
 I started with a logistic regression classification model to predict credit risk. Credit risk is an unbalanced classification problem as good loans outnumber bad ones. To get more accurate results, I resampled the training data to include more instances of bad loans. I did this using four methods: Random Oversampling, SMOTE, clustercentroids and SMOtEEN.
 
 <strong>Random Oversampling</strong></br>
-The logictic regression with random oversampling model had the following metrics.
+The logistic regression with random oversampling model had the following metrics.
  - Balanced Accuracy: 0.677
  - Precision and Recall: </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/RandomOversampling.PNG?raw=true">
