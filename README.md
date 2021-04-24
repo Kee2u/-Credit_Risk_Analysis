@@ -14,25 +14,37 @@ The logistic regression with random oversampling model had the following metrics
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/RandomOversampling.PNG?raw=true">
  
 <strong>SMOTE Oversampling</strong></br>
-The logictic regression with random oversampling model had the following metrics.
+The logistic regression with SMOTE model had the following metrics.
  - Balanced Accuracy: 0.662
  - Precision and Recall: </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/SMOTE.PNG?raw=true">
  
 <strong>Clustercentroids Undersampling</strong></br>
-The logictic regression with random oversampling model had the following metrics.
+The logistic regression with clustercentroids oversampling model had the following metrics.
  - Balanced Accuracy: 0.662
  - Precision and Recall: </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/Cluster.PNG?raw=true">
  
 <strong>SMOTEEN sampling</strong></br>
-The logictic regression with random oversampling model had the following metrics.
+The logistic regression with SMOTEEN model had the following metrics.
  - Balanced Accuracy: 0.640
  - Precision and Recall: </br>
    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/SMOTEEN.PNG?raw=true">
+   
+ ### Ensemble Classifiers
+ I also used two ensemble classifier models to predict credit risk. These were: Balanced Random Forest Classfier and Easy Ensemble Classifier
  
-
-
+ <strong>Random Forest Classifier</strong></br>
+ The Random Forest Classifier had the following metrics:
+ - Balanced Accuracy: 0.788
+ - Precision and Recall: </br>
+   <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/rANDOMfOR.PNG?raw=true">
+   
+ <strong>Easy Ensemble Classifier</strong></br>
+ The Easy Ensemble Classfier had the following metrics:
+ - Balanced Accuracy: 0.931
+ - Precision and Recall: </br>
+   <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/ADA.PNG?raw=true">
 
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
