@@ -23,13 +23,13 @@ The logistic regression with SMOTE model had the following metrics.
 The logistic regression with clustercentroids oversampling model had the following metrics.
  - Balanced Accuracy: 0.662
   - Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.69 </br>
-   <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/Cluster.PNG?raw=true">
+    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/Cluster.PNG?raw=true">
  
 <strong>SMOTEEN sampling</strong></br>
 The logistic regression with SMOTEEN model had the following metrics.
  - Balanced Accuracy: 0.640
   - Precision and Recall: This model predicted high risk datapoints with a precision of 0.01 and a recall of 0.70 </br>r>
-   <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/SMOTEEN.PNG?raw=true">
+    <img src = "https://github.com/Kee2u/Credit_Risk_Analysis/blob/main/Pictures/SMOTEEN.PNG?raw=true">
    
  ### Ensemble Classifiers
  I also used two ensemble classifier models to predict credit risk. These were: Balanced Random Forest Classifier and Easy Ensemble Classifier
